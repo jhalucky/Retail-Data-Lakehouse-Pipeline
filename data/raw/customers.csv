@@ -2,8 +2,8 @@ customer_id,first_name,last_name,gender,email,phone,address,city,state,signup_da
 1,Jeffrey,Lowery,F,jackiewhitney@example.net,787-636-7110x20974,"38566 Ward Knolls,East Lisa, MN 66003",East Barbara,Delaware,2023-08-21
 2,Barbara,Payne,F,kristireese@example.net,001-361-931-9981x0788,"10704 Henry Trail,Williamsport, VA 79331",West Jeremiahshire,Maryland,2024-07-08
 3,Nicholas,Smith,F,bbrown@example.net,(684)448-7859x44764,"Unit 0004 Box 9252,DPO AP 09051",Stephanieberg,Virginia,2025-03-07
-4,Elizabeth,Washington,F,dharrison@example.net,(237)383-6355x3106,"647 Miles Ridge Apt. 960,Nguyentown, DE 91712",Ramirezport,Washington,2023-12-03
-5,Christopher,Townsend,M,lindseymarquez@example.com,480.435.8497x905,"2553 Wilson Gardens,Santiagoside, DE 97957",Lefort,New York,2025-12-02
+4,Elizabeth,,F,dharrison@example.net,(237)383-6355x3106,"647 Miles Ridge Apt. 960,Nguyentown, DE 91712",Ramirezport,Washington,2023-12-03
+5,Christopher,Townsend,M,,480.435.8497x905,"2553 Wilson Gardens,Santiagoside, DE 97957",Lefort,New York,2025-12-02
 6,Michael,Sherman,F,brendarandall@example.net,664.240.6601x978,"62556 Dennis Glens,Tiffanyville, WV 81200",Meaganton,Nevada,2023-10-04
 7,Jacob,Pacheco,M,edwinspencer@example.com,379-282-8944x28967,"610 Spencer Path Suite 754,Lake Courtneyton, VI 28186",Lake Jacktown,Connecticut,2024-08-13
 8,Diane,Clark,F,aclark@example.com,001-734-827-5592x32249,"2440 Erica Stream Apt. 335,New Damon, MT 28050",Port Dennis,Rhode Island,2024-02-19
@@ -13,12 +13,12 @@ customer_id,first_name,last_name,gender,email,phone,address,city,state,signup_da
 12,Zachary,Shelton,F,kathryn11@example.com,662-888-3378x67768,"16722 Mitchell Falls,Lake Brian, FL 80358",New Lori,Washington,2024-10-07
 13,James,Sanders,M,clarence98@example.org,(827)983-3330x652,"264 Ross Trafficway Suite 256,Pinedashire, TX 08895",West Aprilfurt,Michigan,2025-07-29
 14,Bobby,Estrada,M,staceyholt@example.com,(619)593-5517,"261 Fisher Fork Apt. 357,South Morganshire, SC 22367",East Connieton,Utah,2026-04-20
-15,Jacqueline,Jones,F,davidmitchell@example.org,637-699-9318x33318,"80593 Bowers Springs,Port Larry, NJ 85006",North Michaelmouth,Montana,2025-12-27
+15,Jacqueline,Jones,F,davidmitchell@example.org,,"80593 Bowers Springs,Port Larry, NJ 85006",North Michaelmouth,Montana,2025-12-27
 16,Jennifer,Lopez,F,patrickbryant@example.net,(391)527-4337,"USNS Landry,FPO AP 87177",Jessefurt,Maryland,2024-03-06
 17,Mark,Olson,F,astone@example.com,(266)622-8688,"0353 Todd Spring Apt. 525,Lake Katie, ME 84762",New Cassidyville,California,2023-08-24
 18,Michelle,Archer,M,vcollins@example.net,+1-789-217-4942x03951,"669 Mark Lake,South Loritown, OR 02568",New William,Alabama,2024-11-21
 19,Monica,Collins,M,annasimpson@example.com,270-534-1443,"USS White,FPO AE 18968",East Gina,Louisiana,2025-07-01
-20,Sue,Phillips,M,kcox@example.org,(732)543-3167x3968,"USNV Smith,FPO AA 61697",Port Kathy,North Dakota,2024-05-09
+20,Sue,Phillips,M,kcox@example.org,(732)543-3167x3968,"USNV Smith,FPO AA 61697",Port Kathy,,2024-05-09
 21,Teresa,White,M,barnettfranklin@example.com,468.988.3562x254,"59029 Cochran Drive Apt. 867,Miguelmouth, AL 57494",Welchland,Maine,2024-07-18
 22,Jade,Pugh,M,milleramy@example.org,824-806-9619x218,"275 Maria Road Apt. 498,Murilloville, OK 56801",Port Christopher,Kentucky,2023-08-08
 23,Robert,Jackson,F,pjohnson@example.net,872.849.2211x7094,"154 Miller Underpass,West Dana, CO 30632",East Michelle,Pennsylvania,2024-02-19
