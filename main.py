@@ -23,7 +23,12 @@ CUSTOMER_SCHEMA = [
 spark = get_spark_session()
 customer_df = read_csv(spark, "data/raw/customers.csv")
 product_df = read_csv(spark, "data/raw/products.csv")
+order_df = read_csv(spark, "data/raw/orders.csv")
+order_item_df = read_csv(spark, "data/raw/order_items.csv")
+payment_df = read_csv(spark, "data/raw/payments.csv")
 
+
+# customer_df run
 # print_schema(customer_df)
 # print(f"spark version : {spark.version}")
 # print(show_columns(customer_df))
@@ -35,7 +40,20 @@ product_df = read_csv(spark, "data/raw/products.csv")
 # print(validate_duplicate_rows(customer_df))
 # print(validate_duplicate_primary_keys(customer_df, "customer_id"))
 # print(count_rows(customer_df))
-validate_emails(customer_df, "email")
+# validate_emails(customer_df, "email")
 # lazy_evaluation_demo(customer_df)
 # validate_schema(customer_df, CUSTOMER_SCHEMA)
+
+
+
+# order_df run
+
+# print_schema(order_df)
+# print(show_columns(order_df))
+# print(describe_data(order_df))
+# print(count_rows(order_df))
+# print(show_rows(order_df, 20))
+# print(validate_missing_values(order_df))
+# print(validate_duplicate_rows(order_df))
+# print(validate_duplicate_primary_keys(order_df, "order_id"))
 spark.stop()
