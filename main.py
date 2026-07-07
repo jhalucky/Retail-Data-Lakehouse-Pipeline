@@ -8,6 +8,7 @@ from src.validate.primary_key import validate_duplicate_primary_keys
 from src.validate.email import validate_emails
 from src.validate.schema import validate_schema
 from src.transform.trim_whitespace import trim_whitespace
+from src.transform.standardize_case import standardize_case
 
 CUSTOMER_SCHEMA = [
     "customer_id",
@@ -45,6 +46,8 @@ payment_df = read_csv(spark, "data/raw/payments.csv")
 # lazy_evaluation_demo(customer_df)
 # validate_schema(customer_df, CUSTOMER_SCHEMA)
 trim_whitespace(customer_df)
+standardize_case(customer_df)
+print(show_rows(customer_df, 10))
 
 
 
