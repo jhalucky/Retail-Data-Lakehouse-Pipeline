@@ -2,7 +2,7 @@ from pyspark.sql.functions import trim, col
 
 def trim_whitespace(df):
 
-    for c in ["first_name", "last_name", "email"]:
+    for c in df.columns:
         df =  df.withColumn(c, trim(col(c)))
 
 

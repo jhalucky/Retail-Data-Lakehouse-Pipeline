@@ -1,5 +1,5 @@
 customer_id,first_name,last_name,gender,email,phone,address,city,state,signup_date
-1, Jeffrey, lowery,F, jackiewhitneyexample.net,787-636-7110x20974,"38566 Ward Knolls,East Lisa, MN 66003",East Barbara,Delaware,2023-08-21
+1, Jeffrey, lowery,F, jackiewhitney example.net,787-636-7110x20974,"38566 Ward Knolls,East Lisa, MN 66003",East Barbara,Delaware,2023-08-21
 2,Barbara,Payne,F,kristireese@example.net,001-361-931-9981x0788,"10704 Henry Trail,Williamsport, VA 79331",West Jeremiahshire,Maryland,2024-07-08
 3,nicholas,Smith,F,bbrown@examplenet ,(684)448-7859x44764,"Unit 0004 Box 9252,DPO AP 09051",Stephanieberg,Virginia,2025-03-07
 4,Elizabeth ,,F,dharrison@example.net,(237)383-6355x3106,"647 Miles Ridge Apt. 960,Nguyentown, DE 91712",Ramirezport,Washington,2023-12-03
@@ -7,7 +7,7 @@ customer_id,first_name,last_name,gender,email,phone,address,city,state,signup_da
 6,Michael,Sherman,F,brendarandall@example.net,664.240.6601x978,"62556 Dennis Glens,Tiffanyville, WV 81200",Meaganton,Nevada,2023-10-04
 7,Jacob,Pacheco,M,edwinspencer@example.com,379-282-8944x28967,"610 Spencer Path Suite 754,Lake Courtneyton, VI 28186",Lake Jacktown,Connecticut,2024-08-13
 8,Diane,Clark,F,aclark@example.com,001-734-827-5592x32249,"2440 Erica Stream Apt. 335,New Damon, MT 28050",Port Dennis,rhode Island,2024-02-19
-9,Karina,Berry,F,juan01@example.com,(409)520-4402x524,"51587 Costa Parkway Apt. 992,East Justin, IA 51404",carrollberg,Indiana,2025-02-14
+9,Karina,Berry,F,Juan01@example.com,(409)520-4402x524,"51587 Costa Parkway Apt. 992,East Justin, IA 51404",carrollberg,Indiana,2025-02-14
 10,Brad,Campbell,F,kaylaglenn@example.net,865-614-8661x073,"6809 Pope Park Suite 075,Gilmoreborough, MT 70369",Danielchester,Illinois,2024-04-16
 11,Robert,Little,F,haletanner@example.com,251-433-8944x191,"71385 Thomas Plains,Davisborough, MH 26936",South Nicoleborough,Missouri,2025-07-21
 12,Zachary,Shelton,F,kathryn11@example.com,662-888-3378x67768,"16722 Mitchell Falls,Lake Brian, FL 80358",New Lori,Washington,2024-10-07
