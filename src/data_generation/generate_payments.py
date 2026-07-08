@@ -24,7 +24,7 @@ def generate_payments(num_payments, output_file):
 
             writer.writerow([
                 payment_id,
-                random.randint(1,1000),
+                payment_id, #order_id
                 random_payment_method(),
                 random_payment_status(),
                 fake.date_between(start_date="-3y", end_date="today")

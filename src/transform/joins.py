@@ -57,11 +57,11 @@ def create_sales_dataframe(
     
     """Create an analytical data frame"""
 
-    customer_orders = join_customers_orders(customer_df, order_df)
+    customer_orders_df = join_customers_orders(customer_df, order_df)
 
-    order_items = join_order_items(order_df, order_item_df)
+    order_items_df = join_order_items(customer_orders_df, order_item_df)
 
-    sales_df = join_products(order_items, product_df)
+    sales_df = join_products(order_items_df, product_df)
 
     sales_df = join_payments(sales_df, payment_df)
 

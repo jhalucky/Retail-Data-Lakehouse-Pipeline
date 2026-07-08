@@ -24,7 +24,7 @@ def generate_orders(num_orders, output_file):
 
             writer.writerow([
                 order_id,
-                random.randint(1,1001),
+                random.randint(1,1000),
                 fake.date_between(start_date="-3y",end_date="today"),
                 random_order_status(),
                 random.randint(100,100000)

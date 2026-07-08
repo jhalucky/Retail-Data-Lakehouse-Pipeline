@@ -62,7 +62,10 @@ payment_df = read_csv(spark, "data/raw/payments.csv")
 sales_df = create_sales_dataframe(
     customer_df, order_df, order_item_df, product_df, payment_df
 )
-print(show_rows(sales_df, 10))
+show_rows(sales_df, 10)
 print_schema(sales_df)
+# payment_df.groupBy("order_id").count().filter("count > 1").show()
+# customer_df.filter(customer_df.customer_id.isNull()).show()
 
+# order_df.filter(order_df.customer_id.isNull()).show()
 spark.stop()
