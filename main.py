@@ -12,6 +12,7 @@ from src.transform.standardize_case import standardize_case
 from src.transform.clean_email import clean_email
 from src.transform.convert_dtypes import convert_dtypes
 from src.transform.joins import create_sales_dataframe
+from src.analytics.revenue import revenue_by_category
 from schemas import CUSTOMER_SCHEMA, ORDER_ITEM_SCHEMA, ORDER_SCHEMA, PAYMENT_SCHEMA, PRODUCT_SCHEMA
 
 
@@ -62,10 +63,9 @@ payment_df = read_csv(spark, "data/raw/payments.csv")
 sales_df = create_sales_dataframe(
     customer_df, order_df, order_item_df, product_df, payment_df
 )
-show_rows(sales_df, 10)
-print_schema(sales_df)
-# payment_df.groupBy("order_id").count().filter("count > 1").show()
-# customer_df.filter(customer_df.customer_id.isNull()).show()
+# show_rows(sales_df, 10)
+# print_schema(sales_df)
 
-# order_df.filter(order_df.customer_id.isNull()).show()
+category_revenue_df = revenue_by_category(sales_df)
+show_rows(category_revenue_df)
 spark.stop()
