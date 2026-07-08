@@ -12,6 +12,7 @@ from src.transform.standardize_case import standardize_case
 from src.transform.clean_email import clean_email
 from src.transform.convert_dtypes import convert_dtypes
 from src.transform.joins import create_sales_dataframe
+from src.transform.create_fact_sales import create_fact_sales
 from src.analytics.revenue import revenue_by_category, revenue_by_state, revenue_by_month
 from schemas import CUSTOMER_SCHEMA, ORDER_ITEM_SCHEMA, ORDER_SCHEMA, PAYMENT_SCHEMA, PRODUCT_SCHEMA
 
@@ -68,6 +69,7 @@ sales_df = create_sales_dataframe(
 
 # category_revenue_df = revenue_by_category(sales_df)
 # category_revenue_df = revenue_by_state(sales_df)
-category_revenue_df = revenue_by_month(sales_df)
-show_rows(category_revenue_df)
+# category_revenue_df = revenue_by_month(sales_df)
+fact_sales_df = create_fact_sales(sales_df)
+show_rows(fact_sales_df)
 spark.stop()
