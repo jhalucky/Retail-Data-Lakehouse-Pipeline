@@ -14,13 +14,7 @@ The project also includes multiple business analytics reports and Spark performa
 
 ---
 
-# 🏗 Architecture
 
-<p align="center">
-    <img src="images/architecture.png" width="900">
-</p>
-
----
 
 # 🔄 Pipeline Flow
 
@@ -155,17 +149,7 @@ Total Records:
 
 ---
 
-## Business Analytics
 
-- Revenue by Category
-- Revenue by State
-- Monthly Revenue
-- Top Selling Products
-- Top Customers
-- Payment Distribution
-- Average Order Value
-
----
 
 ## Spark Optimizations
 
@@ -191,59 +175,9 @@ Final analytical data is stored in **Apache Parquet** format for:
 
 ---
 
-# 📈 Sample Analytics
 
-## Revenue by Category
 
-<p align="center">
-<img src="images/revenue_category.png">
-</p>
 
----
-
-## Top Products
-
-<p align="center">
-<img src="images/top_products.png">
-</p>
-
----
-
-## Monthly Revenue
-
-<p align="center">
-<img src="images/monthly_revenue.png">
-</p>
-
----
-
-# 🚀 How to Run
-
-Clone Repository
-
-```bash
-git clone https://github.com/jhalucky/Retail-Data-Lakehouse-Pipeline.git
-```
-
-Go to project
-
-```bash
-cd Retail-Data-Lakehouse-Pipeline
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Run
-
-```bash
-python main.py
-```
-
----
 
 # 📚 Spark Concepts Covered
 
@@ -265,34 +199,9 @@ python main.py
 
 ---
 
-# 📖 Learning Outcomes
 
-After completing this project, I learned:
 
-- Building modular ETL pipelines
-- Apache Spark DataFrame API
-- Spark SQL
-- Data validation strategies
-- Fact table creation
-- Business analytics using Spark
-- Performance optimization techniques
-- Efficient storage using Apache Parquet
 
----
-
-# 🔮 Future Improvements
-
-- AWS S3 Integration
-- Snowflake Integration
-- Delta Lake
-- Databricks
-- Apache Airflow Scheduling
-- Power BI Dashboard
-- Docker Support
-- Unit Testing
-- CI/CD Pipeline
-
----
 
 # 👨‍💻 Author
 
