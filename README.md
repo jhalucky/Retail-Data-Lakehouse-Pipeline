@@ -1,4 +1,4 @@
-# 🚀 Retail Data Pipeline using Apache Spark
+# 🚀 Retail Analytics Platform
 
 A production-style Data Engineering project that demonstrates how to build an end-to-end ETL pipeline using **Apache Spark**, perform data validation and transformations, create an analytical **Fact Sales** table, generate business insights, and store optimized datasets in **Apache Parquet** format.
 
